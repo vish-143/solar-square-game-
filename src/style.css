@@ -1,0 +1,54 @@
+  .gameBoxSquare,.squareBoxField,.gameContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .gameBoxSquare{
+    flex-direction: row;
+  }
+  .squareBoxField,.gameContainer{
+    align-items: center;
+  }
+  .checkedSquareBox {
+    background-color: red ;
+    border: 1px solid lightgrey;
+    color: white;
+  }
+  .solarSquareBox {
+    display: table;
+    height: 35px;
+    width: 35px;
+  }
+  .removeContainer{
+    border: 1px solid #d3d3d3;
+  }
+  .removeContainer:hover{
+    background-color: #d1d1d1;
+  }
+  .removeSquareBox{
+    border: 1px solid white;
+  }
+  .gameContainer{
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    column-gap: 25px;
+  }
+  .gameButton{
+    width: 150px;
+    height: 60px;
+    border: 3px solid #315cfd;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .gameButton:hover {
+    background: #315cfd;
+    color: white;
+    font-size: 1em;
+  }
+  .gameHeader{
+    text-align: center;
+  }
